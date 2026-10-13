@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+*.png
+*.tmp
+lr4/out/
+lr8/demo/
+lr9/test_results.json
