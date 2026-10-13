@@ -1,0 +1,92 @@
+[
+  {
+    "code": "Н-0001",
+    "day": "2026-09-01",
+    "shop": 3,
+    "worker": 1021,
+    "operation": "ТОК-12",
+    "norm_hours": 0.5,
+    "quantity": 40
+  },
+  {
+    "code": "Н-0002",
+    "day": "2026-09-01",
+    "shop": 3,
+    "worker": 1034,
+    "operation": "ФРЕЗ-07",
+    "norm_hours": 0.8,
+    "quantity": 25
+  },
+  {
+    "code": "Н-0003",
+    "day": "2026-09-02",
+    "shop": 5,
+    "worker": 2110,
+    "operation": "СВАР-03",
+    "norm_hours": 1.2,
+    "quantity": 10
+  },
+  {
+    "code": "Н-0004",
+    "day": "2026-09-03",
+    "shop": 3,
+    "worker": 1021,
+    "operation": "ТОК-12",
+    "norm_hours": 0.5,
+    "quantity": 46
+  },
+  {
+    "code": "Н-0005",
+    "day": "2026-09-04",
+    "shop": 5,
+    "worker": 2117,
+    "operation": "СБОР-01",
+    "norm_hours": 0.25,
+    "quantity": 120
+  },
+  {
+    "code": "Н-0006",
+    "day": "2026-09-08",
+    "shop": 3,
+    "worker": 1034,
+    "operation": "ТОК-12",
+    "norm_hours": 0.5,
+    "quantity": 38
+  },
+  {
+    "code": "Н-0007",
+    "day": "2026-09-09",
+    "shop": 5,
+    "worker": 2110,
+    "operation": "СВАР-03",
+    "norm_hours": 1.2,
+    "quantity": 12
+  },
+  {
+    "code": "Н-0008",
+    "day": "2026-09-15",
+    "shop": 7,
+    "worker": 3005,
+    "operation": "ШЛИФ-02",
+    "norm_hours": 0.3,
+    "quantity": 60
+  },
+  {
+    "code": "Н-0009",
+    "day": "2026-10-01",
+    "shop": 3,
+    "worker": 1021,
+    "operation": "ФРЕЗ-07",
+    "norm_hours": 0.8,
+    "quantity": 30
+  },
+  {
+    "code": "Н-0010",
+    "day": "2026-10-02",
+    "shop": 7,
+    "worker": 3005,
+    "operation": "ШЛИФ-02",
+    "norm_hours": 0.3,
+    "quantity": 55
+  }
+]
