@@ -19,6 +19,7 @@ class TestFibonacci(unittest.TestCase):
         self.assertEqual(fibonacci(100), 354224848179261915075)
 
     def test_bounds(self):                           # защищённость
+        self.assertEqual(len(str(fibonacci(MAX_N))), 208988)
         for bad in (0, -5, MAX_N + 1, 2.5, "10", True):
             with self.assertRaises(InputError):
                 fibonacci(bad)

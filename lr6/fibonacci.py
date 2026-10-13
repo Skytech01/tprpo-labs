@@ -19,6 +19,11 @@ import time
 MAX_N = 1_000_000            # верхняя граница номера элемента
 SHOW_DIGITS = 60             # сколько цифр длинного числа показывать
 
+# F(MAX_N) содержит ~209 тыс. цифр; снимаем ограничение Python на
+# перевод длинных чисел в строку (по умолчанию 4300 цифр).
+if hasattr(sys, "set_int_max_str_digits"):
+    sys.set_int_max_str_digits(0)
+
 
 class InputError(ValueError):
     """Неверные исходные данные."""
